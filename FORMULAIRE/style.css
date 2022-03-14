@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    padding: 24px;
+    width: 100%;
+}
+
+tbody tr:nth-child(even){
+    background-color: aqua;
+}
+input[type=text],select {
+
+    width: 100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border : 1px solid rgb(236,236,236);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+
+input[type=date]{
+    width: 100%;
+
+}
+input[type=radio]{
+    width: 100%;
+
+}
